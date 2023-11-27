@@ -1,0 +1,37 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  padding: 1rem;
+  background: #fe6a4d;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: flex ;
+  animation: 15s slide infinite linear;
+  
+}
+
+.logos-slide{
+  margin: 0 40px;
+}
+
+.p{
+    font-size: 3rem;
+    font: bold;
+}
