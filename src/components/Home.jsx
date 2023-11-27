@@ -5,6 +5,7 @@ import { CiShare2 } from "react-icons/ci";
 import { Details } from "../utils/Utils";
 import Overview from "./Overview";
 import Review from "./Review";
+import Feature_cards from "./Feature_cards";
 
 const Home = () => {
   console.log(Details[1]?.location);
@@ -51,6 +52,7 @@ const Home = () => {
 
       <Overview />
       <Review />
+      <Feature_cards/>
     </>
   );
 };
