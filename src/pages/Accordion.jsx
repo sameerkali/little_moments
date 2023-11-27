@@ -38,7 +38,8 @@ const AccordionSection = ({
         <div>{isActiveSection ? <FaCircleMinus /> : <FaPlusCircle />}</div>
       </div>
       {isActiveSection && (
-        <div className="ml-16"  style={accordionContentStyles}>{section.content} <hr/></div>
+        
+        <div className="ml-16"  style={accordionContentStyles}>{section.content}  <div className=" mt-7 h-[2px] w-100 bg-gray-900"></div> </div>
         
       )}
     </div>

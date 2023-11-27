@@ -4,6 +4,7 @@ import { CiShare2 } from "react-icons/ci";
 
 import { Details } from "../utils/Utils";
 import Overview from "./Overview";
+import Review from "./Review";
 
 const Home = () => {
   console.log(Details[1]?.location);
@@ -44,14 +45,12 @@ const Home = () => {
               <CiShare2 />
             </button>
           </div>
-          <p className="mt-7 font-bold">
-
-          {Details[0]?.date}
-          </p>
+          <p className="mt-7 font-bold">{Details[0]?.date}</p>
         </div>
       </div>
-      
-      <Overview/>
+
+      <Overview />
+      <Review />
     </>
   );
 };
