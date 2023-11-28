@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <footer className="p-6 pb-14 bg-[#F7F5EC]">
         <div className="flex flex-row justify-between p-1 bg-black text-white rounded-2xl">
-          <div className="hidden h-full gap-12 lg:flex flex-row justify-around m-4 p-1">
+          <div className="hidden lg:flex h-full gap-12  flex-row justify-around m-4 p-1">
             <Link to={`/`}>
               {" "}
               <p className="hover:text-[#FE6A4D] cursor-pointer ">Home</p>{" "}

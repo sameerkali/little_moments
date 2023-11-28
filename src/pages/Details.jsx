@@ -9,20 +9,20 @@ const Detail = () => {
   return (
     <>
       <Link to={`/feature`}>
-        <div className="bg-[#F7F5EC]  flex justify-between pl-16 pr-16  ">
+        <div className=" flex   bg-[#F7F5EC]    justify-between pl-16 pr-16  ">
           <div>
             <img
               className="w-[50rem] h-[28rem] rounded-lg object-none"
               src={`tokiyo_image_01.jpg`}
             />
-            <button className="relative left-[42rem] top-[-26rem] rounded-2xl   pl-6 pr-6 pt-1 pb-1 bg-yellow-400  font-bold">
+            <button className="relative left-[42rem]  top-[-26rem] rounded-2xl pl-6 pr-6 pt-1 pb-1 bg-yellow-400  font-bold">
               Popular
             </button>
             <button className="relative left-[-4rem] top-[-4rem] rounded-2xl   text-[2rem] text-white  font-bold">
               PLACE
             </button>
           </div>
-          <div className="flex">
+          <div className="lg:flex hidden ">
             <div className="mr-3 ">
               <img
                 className="w-[17rem] h-[13.6rem] rounded-lg mb-3"
