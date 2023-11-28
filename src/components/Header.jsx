@@ -5,12 +5,8 @@ const Header = () => {
   return (
     <>
       <footer id="top" className="p-6 pb-14 bg-[#F7F5EC]">
-        <div className="flex flex-row justify-between p-1 bg-black text-white rounded-2xl">
-          <div className="p-1 h-full gap-12  flex-row justify-around m-4 ">
-            <Link to={`/`}>
-              {" "}
-              <p className="hover:text-[#FE6A4D] cursor-pointer mb-5 sm:mb-0 ">Home</p>{" "}
-            </Link>
+        <div className="flex flex-row  justify-between p-1 bg-black text-white rounded-2xl">
+          <div className=" gap-5  m-4 hidden sm:flex ">
             <Link to={`/review`}>
               {" "}
               <p className="hover:text-[#FE6A4D] cursor-pointer mb-3 sm:mb-0">
@@ -30,9 +26,13 @@ const Header = () => {
               </p>{" "}
             </Link>
           </div>
-          <Link to={`/`}>
-            <div className="m-4 p-1 hover:text-[#FE6A4D] flex ">
-              <p className="font-bold ">Start Exploring</p>
+          <Link to={`/feature`}>
+            <div className="m-4 p-1  flex ">
+              {/* <Link to={`/`}>
+                <h1 className="hover:text-[#FE6A4D] mr-9 font-bold">home</h1>
+              </Link> */}
+
+              <p className="font-bold hover:text-[#FE6A4D]">Start Exploring</p>
               <p className="relative top-[7px]">
                 <svg
                   className="rtl:rotate-180 w-3.5 h-3.5 ms-2"

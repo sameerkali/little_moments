@@ -18,7 +18,7 @@ const Detail = () => {
             <button className="relative left-[42rem]  top-[-26rem] hidden sm:flex rounded-2xl pl-6 pr-6 pt-1 pb-1 bg-yellow-400  font-bold">
               Popular
             </button>
-            <button className="sam_bold relative left-[-4rem] top-[-4rem] rounded-2xl   text-[2rem] text-white  font-bold">
+            <button className="sam_bold relative left-[1rem] top-[-4rem] rounded-2xl sm:left-[2.5rem] sm:top-[-8rem] sm:text-[4rem]   text-[2rem] text-white  font-bold">
               PLACE
             </button>
           </div>
