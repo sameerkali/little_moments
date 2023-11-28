@@ -7,9 +7,28 @@ const Header = () => {
       <footer className="p-6 pb-14 bg-[#F7F5EC]">
         <div className="flex flex-row justify-between p-1 bg-black text-white rounded-2xl">
           <div className="hidden h-full gap-12 lg:flex flex-row justify-around m-4 p-1">
-            <p className="hover:text-[#FE6A4D]">Categories</p>
-            <p className="hover:text-[#FE6A4D]">Activity Near Me</p>
-            <p className="hover:text-[#FE6A4D]">Add a Place</p>
+            <Link to={`/`}>
+              {" "}
+              <p className="hover:text-[#FE6A4D] cursor-pointer ">Home</p>{" "}
+            </Link>
+            <Link to={`/review`}>
+              {" "}
+              <p className="hover:text-[#FE6A4D] cursor-pointer ">
+                Review
+              </p>{" "}
+            </Link>
+            <Link to={`/feature`}>
+              {" "}
+              <p className="hover:text-[#FE6A4D] cursor-pointer ">
+                Activity Near Me
+              </p>{" "}
+            </Link>
+            <Link to={`/overview`}>
+              {" "}
+              <p className="hover:text-[#FE6A4D] cursor-pointer ">
+                Add a Place
+              </p>{" "}
+            </Link>
           </div>
           <Link to={`/`}>
             <div className="m-4 p-1 hover:text-[#FE6A4D] flex ">

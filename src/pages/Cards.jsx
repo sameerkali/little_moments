@@ -1,21 +1,20 @@
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import './card_shadow.css'
+import "./card_shadow.css";
 
 const Cards = () => {
   return (
     <>
       <div className="card_holder flex justify-between">
         {/* 1 */}
-        <Link to={`/detail`}>
+        <Link to={`/ny`}>
           <div className=" sam_shadow_8 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700">
-            <a href="#">
-              <img
-                className="rounded-t-lg h-[15rem] w-[25rem] "
-                src="ny_01.jpg"
-                alt=""
-              />
-            </a>
+            <img
+              className="rounded-t-lg h-[15rem] w-[25rem] "
+              src="ny_01.jpg"
+              alt=""
+            />
+
             <div className="">
               {/* 1 */}
               <div className=" p-1 heading flex justify-between ml-2 mr-2">
@@ -46,15 +45,14 @@ const Cards = () => {
           </div>
         </Link>
         {/* 2 */}
-        <Link to={`/detail`}>
+        <Link to={`/moldives`}>
           <div className="max-w-sm sam_shadow_9 bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700">
-            <a href="#">
-              <img
-                className="rounded-t-lg h-[15rem] w-[25rem] "
-                src="maldives_03.jpg"
-                alt=""
-              />
-            </a>
+            <img
+              className="rounded-t-lg h-[15rem] w-[25rem] "
+              src="maldives_03.jpg"
+              alt=""
+            />
+
             <div className="">
               {/* 1 */}
               <div className=" p-1 heading flex justify-between ml-2 mr-2">
@@ -86,15 +84,13 @@ const Cards = () => {
         </Link>
 
         {/* 3 */}
-        <Link to={`/detail`}>
+        <Link to={`/kashmir`}>
           <div className="max-w-sm sam_shadow_10 bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700">
-            <a href="#">
-              <img
-                className="rounded-t-lg h-[15rem] w-[25rem]"
-                src="../../public/kashmir_01.jpg"
-                alt=""
-              />
-            </a>
+            <img
+              className="rounded-t-lg h-[15rem] w-[25rem]"
+              src="kashmir_01.jpg"
+              alt=""
+            />
             <div className="">
               {/* 1 */}
               <div className=" p-1 heading flex justify-between ml-2 mr-2">
