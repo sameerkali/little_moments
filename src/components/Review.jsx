@@ -6,9 +6,9 @@ const Review = () => {
     <>
       <div className="bg-[#F7F5EC] flex justify-between p-16">
         <div className="left">
-          <h1 className="text-[4rem] font-bold">REVIEWS</h1>
+          <h1 className="sam_bold text-[8rem] font-bold">REVIEWS</h1>
           <div className="flex">
-            <h2 className="text-[3rem] top-[-.8rem] relative  mr-3 font-bold">
+            <h2 className="text-[3rem] sam_bold top-[-.5rem] relative  mr-3 font-bold">
               5.0
             </h2>
             <div>

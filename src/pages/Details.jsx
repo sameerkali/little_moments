@@ -1,9 +1,10 @@
 import { Details } from "../utils/Utils";
-
+import './font_pages.css'
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { CiHeart } from "react-icons/ci";
 import { CiShare2 } from "react-icons/ci";
 import { Link } from "react-router-dom";
+
 
 const Detail = () => {
   return (
@@ -18,7 +19,7 @@ const Detail = () => {
             <button className="relative left-[42rem]  top-[-26rem] rounded-2xl pl-6 pr-6 pt-1 pb-1 bg-yellow-400  font-bold">
               Popular
             </button>
-            <button className="relative left-[-4rem] top-[-4rem] rounded-2xl   text-[2rem] text-white  font-bold">
+            <button className="sam_bold relative left-[-4rem] top-[-4rem] rounded-2xl   text-[2rem] text-white  font-bold">
               PLACE
             </button>
           </div>
@@ -52,7 +53,7 @@ const Detail = () => {
             {Details[0]?.rating}{" "}
             <span className="text-gray-400">(231 Reviews)</span>
           </p>
-          <p className="text-[3.4rem] font-bold">{Details[0]?.title}</p>
+          <p className="sam_bold text-[3.4rem] font-bold">{Details[0]?.title}</p>
           <p className="font-bold">{Details[0]?.description}</p>
 
           <div className="flex flex-row pt-7 font-bold pb-7 ">
