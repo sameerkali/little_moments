@@ -3,7 +3,8 @@ import { FaCaretLeft, FaCaretRight } from "react-icons/fa6";
 
 const Comments = () => {
   return (
-    <>
+    <div className="bg-[#F7F5EC] mt-[-2rem] pb-4">
+
       <div className="flex justify-between pl-16 pr-16 mt-5 mb-5">
         <div className="">
           <p className="text-[13px] font-bold">LAILA JOHN</p>
@@ -100,14 +101,14 @@ const Comments = () => {
       <div className=" ml-16 mr-16 mb-7 h-[2px] w-100 bg-gray-900"></div>
       {/* ======================================================================== */}
       <div className="flex justify-end mr-16 mb-7">
-        <button className="p-5 mr-2 border-2  hover:bg-[#FFC801] rounded-full">
+        <button className="p-5 sam_shadow_6 mr-2 border-2  hover:bg-[#FFC801] rounded-full">
           <FaCaretLeft />
         </button>
-        <button className="p-5  bg-[#FFC801] rounded-full">
+        <button className="p-5 sam_shadow_7 bg-[#FFC801] rounded-full">
           <FaCaretRight />
         </button>
       </div>
-    </>
+    </div>
   );
 };
 

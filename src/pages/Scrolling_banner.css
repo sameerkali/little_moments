@@ -1,3 +1,5 @@
+
+
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -16,22 +18,42 @@
   overflow: hidden;
 }
 
-
 .logos:hover .logos-slide {
   animation-play-state: paused;
 }
 
 .logos-slide {
-  display: flex ;
+  display: flex;
   animation: 15s slide infinite linear;
-  
 }
 
-.logos-slide{
+.logos-slide {
   margin: 0 40px;
 }
 
-.p{
-    font-size: 3rem;
-    font: bold;
+.p {
+  font-size: 3rem;
+  font: bold;
 }
+.sam_shadow_1{
+  box-shadow: 0.7rem 0.7rem black;
+}
+.sam_shadow_2{
+  box-shadow: 0.3rem 0.3rem black;
+}
+.sam_shadow_3{
+  box-shadow: 0.3rem 0.3rem black;
+}
+.sam_shadow_4{
+  box-shadow: 0.7rem 0.7rem black;
+}
+.sam_shadow_5{
+  box-shadow: 0.4rem 0.4rem black;
+}
+.sam_shadow_6{
+  box-shadow: 0.3rem 0.3rem black;
+}
+.sam_shadow_7{
+  box-shadow: 0.3rem 0.3rem black;
+}
+
