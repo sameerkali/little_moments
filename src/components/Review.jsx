@@ -6,7 +6,7 @@ const Review = () => {
     <>
       <div className="bg-[#F7F5EC]  sm:justify-between justify-center sm:p-16 flex flex-col sm:flex-row">
         <div className="left">
-          <h1 className="sam_bold text-[8rem] font-bold ml-16 sm:ml-0">REVIEWS</h1>
+          <h1 className="sam_bold text-[6rem] sm:text-[8rem] font-bold ml-16 sm:ml-0">REVIEWS</h1>
           <div className="ml-16 sm:ml-0 flex">
             <h2 className="text-[3rem] sam_bold top-[-.5rem] relative  mr-3 font-bold">
               5.0
