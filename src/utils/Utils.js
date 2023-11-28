@@ -28,7 +28,7 @@ export const Details = [
       "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location"
   },
   {
-    title: "MALDIVES",
+    title: "MOLDIVES",
     images: [
       "maldives_01.jpg",
       "maldives_02.jpg",
