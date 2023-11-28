@@ -4,7 +4,7 @@ import Comments from "../pages/Comments";
 const Review = () => {
   return (
     <>
-      <div className="bg-[#F7F5EC] flex justify-between p-16">
+      <div className="bg-[#F7F5EC]  sm:justify-between justify-center sm:p-16 flex flex-col sm:flex-row">
         <div className="left">
           <h1 className="sam_bold text-[8rem] font-bold">REVIEWS</h1>
           <div className="flex">
@@ -18,7 +18,7 @@ const Review = () => {
           </div>
         </div>
         <div className="mt-24 ">
-          <button className=" sam_shadow_5 flex p-4 bg-[#0074FE] text-white rounded-lg hover:bg-[#FE6A4D]">
+          <button className=" mb-16 sam_shadow_5 p-4 bg-[#0074FE] text-white rounded-lg hover:bg-[#FE6A4D] ">
             write a review
             <svg
               className="rtl:rotate-180 w-3.5 h-3.5 ms-2 relative top-[6px]"
