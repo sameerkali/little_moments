@@ -5,24 +5,24 @@ import "./card_shadow.css";
 const Cards = () => {
   return (
     <>
-      <div className="card_holder flex justify-between">
+      <div className="card_holder sm:flex-row flex-col flex justify-between">
         {/* 1 */}
         <Link to={`/ny`}>
-          <div className=" sam_shadow_8 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700">
+          <div className="mb-9 sm:mb-0 sam_shadow_8 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700">
             <img
               className="rounded-t-lg h-[15rem] w-[25rem] "
               src="ny_01.jpg"
               alt=""
             />
-            <button className="relative left-[16rem]  top-[-15rem] rounded-2xl pl-6 pr-6 pt-1 pb-1 bg-yellow-400  font-bold">
+            <button className="hidden sm:flex relative left-[16rem]  top-[-14rem] rounded-2xl pl-6 pr-6 pt-1 pb-1 bg-yellow-400  font-bold">
               Popular
             </button>
-            <button className="relative left-[-5rem] top-[-3.5rem] rounded-2xl   text-[2rem] text-white  font-bold">
+            <button className="relative left-[1rem] top-[-5rem] rounded-2xl   text-[2rem] text-white  font-bold">
               PLACE
             </button>
             <div className="">
               {/* 1 */}
-              <div className=" p-1 heading flex justify-between mt-[-3rem] ml-2 mr-2">
+              <div className=" p-1 heading flex justify-between mt-0 sm:mt-[-5rem] ml-2 mr-2">
                 <p>⭐ 4.9 stars</p>
                 <p>November 69, 2023</p>
               </div>
@@ -51,7 +51,7 @@ const Cards = () => {
         </Link>
         {/* 2 */}
         <Link to={`/moldives`}>
-          <div className="max-w-sm sam_shadow_9 bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700">
+          <div className="mb-9 sm:mb-0 sam_shadow_8 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700">
             <img
               className="rounded-t-lg h-[15rem] w-[25rem] "
               src="maldives_03.jpg"
@@ -90,7 +90,7 @@ const Cards = () => {
 
         {/* 3 */}
         <Link to={`/kashmir`}>
-          <div className="max-w-sm sam_shadow_10 bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700">
+          <div className="mb-9 sm:mb-0 sam_shadow_8 max-w-sm bg-white border border-gray-200 rounded-lg shadow  dark:border-gray-700">
             <img
               className="rounded-t-lg h-[15rem] w-[25rem]"
               src="kashmir_01.jpg"

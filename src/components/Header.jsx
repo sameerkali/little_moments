@@ -6,26 +6,26 @@ const Header = () => {
     <>
       <footer id="top" className="p-6 pb-14 bg-[#F7F5EC]">
         <div className="flex flex-row justify-between p-1 bg-black text-white rounded-2xl">
-          <div className="hidden lg:flex h-full gap-12  flex-row justify-around m-4 p-1">
+          <div className="p-1 h-full gap-12  flex-row justify-around m-4 ">
             <Link to={`/`}>
               {" "}
-              <p className="hover:text-[#FE6A4D] cursor-pointer ">Home</p>{" "}
+              <p className="hover:text-[#FE6A4D] cursor-pointer mb-5 sm:mb-0 ">Home</p>{" "}
             </Link>
             <Link to={`/review`}>
               {" "}
-              <p className="hover:text-[#FE6A4D] cursor-pointer ">
+              <p className="hover:text-[#FE6A4D] cursor-pointer mb-3 sm:mb-0">
                 Review
               </p>{" "}
             </Link>
             <Link to={`/feature`}>
               {" "}
-              <p className="hover:text-[#FE6A4D] cursor-pointer ">
+              <p className="hover:text-[#FE6A4D] cursor-pointer mb-3 sm:mb-0">
                 Activity Near Me
               </p>{" "}
             </Link>
             <Link to={`/overview`}>
               {" "}
-              <p className="hover:text-[#FE6A4D] cursor-pointer ">
+              <p className="hover:text-[#FE6A4D] cursor-pointer  sm:mb-0">
                 Add a Place
               </p>{" "}
             </Link>

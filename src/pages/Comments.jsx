@@ -18,9 +18,9 @@ const Comments = () => {
               <RiStarSFill />
               <RiStarSFill />
             </p>
-            <p className="text-[1.7rem] font-bold">The Best Out There!</p>
+            <p className="text-[1.7rem] font-bold ml-[-5rem] sm:ml-0">The Best Out There!</p>
           </div>
-          <p>
+          <p className="ml-[-5rem] sm:ml-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis animi
             tenetur eveniet dignissimos. Minus minima sequi pariatur deleniti
             omnis consequatur. Quasi ex non, quo fugiat molestiae maiores modi
@@ -43,16 +43,16 @@ const Comments = () => {
         </div>
         <div className=" flex flex-col w-[40vw]">
           <div className="flex flex-row mb-7">
-            <p className="hidden sm:flex flex-row relative top-[11px] mr-5 text-[1.3rem] ">
+            <p className="ml-[-5rem] sm:ml-0 hidden sm:flex flex-row relative top-[11px] mr-5 text-[1.3rem] ">
               <RiStarSFill />
               <RiStarSFill />
               <RiStarSFill />
               <RiStarSFill />
               <RiStarSFill />
             </p>
-            <p className="text-[1.7rem] font-bold">The Best Out There!</p>
+            <p className="text-[1.7rem] font-bold ml-[-5rem] sm:ml-0">The Best Out There!</p>
           </div>
-          <p>
+          <p className="ml-[-5rem] sm:ml-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis animi
             tenetur eveniet dignissimos. Minus minima sequi pariatur deleniti
             omnis consequatur. Quasi ex non, quo fugiat molestiae maiores modi
@@ -74,16 +74,16 @@ const Comments = () => {
         </div>
         <div className=" flex flex-col w-[40vw]">
           <div className="flex flex-row mb-7">
-            <p className="hidden sm:flex flex-row relative top-[11px] mr-5 text-[1.3rem] ">
+            <p className=" ml-[-5rem] sm:ml-0 hidden sm:flex flex-row relative top-[11px] mr-5 text-[1.3rem] ">
               <RiStarSFill />
               <RiStarSFill />
               <RiStarSFill />
               <RiStarSFill />
               <RiStarSFill />
             </p>
-            <p className="text-[1.7rem] font-bold">The Best Out There!</p>
+            <p className="text-[1.7rem] font-bold ml-[-5rem] sm:ml-0">The Best Out There!</p>
           </div>
-          <p>
+          <p className="ml-[-5rem] sm:ml-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis animi
             tenetur eveniet dignissimos. Minus minima sequi pariatur deleniti
             omnis consequatur. Quasi ex non, quo fugiat molestiae maiores modi

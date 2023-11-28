@@ -6,8 +6,8 @@ const Review = () => {
     <>
       <div className="bg-[#F7F5EC]  sm:justify-between justify-center sm:p-16 flex flex-col sm:flex-row">
         <div className="left">
-          <h1 className="sam_bold text-[8rem] font-bold">REVIEWS</h1>
-          <div className="flex">
+          <h1 className="sam_bold text-[8rem] font-bold ml-16 sm:ml-0">REVIEWS</h1>
+          <div className="ml-16 sm:ml-0 flex">
             <h2 className="text-[3rem] sam_bold top-[-.5rem] relative  mr-3 font-bold">
               5.0
             </h2>
@@ -18,7 +18,7 @@ const Review = () => {
           </div>
         </div>
         <div className="mt-24 ">
-          <button className=" mb-16 sam_shadow_5 p-4 bg-[#0074FE] text-white rounded-lg hover:bg-[#FE6A4D] ">
+          <button className="ml-16 sm:ml-0 mb-16 sam_shadow_5 p-4 bg-[#0074FE] text-white rounded-lg hover:bg-[#FE6A4D] ">
             write a review
             <svg
               className="rtl:rotate-180 w-3.5 h-3.5 ms-2 relative top-[6px]"
