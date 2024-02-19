@@ -7,6 +7,7 @@ import { CiShare2 } from "react-icons/ci";
 const Moldives = () => {
   return (
     <>
+    <></>
       <div className="bg-[#F7F5EC]  flex justify-between pl-16 pr-16  ">
         <div>
           <img
